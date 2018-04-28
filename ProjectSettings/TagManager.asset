@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Attack
+  - Coin
+  - InstantDeath
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - Enemy
+  - Trigger
+  - Player
+  - Level
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1295140563
+    locked: 0
+  - name: BackDecoration
+    uniqueID: 1369494965
+    locked: 0
+  - name: Character
+    uniqueID: 587934629
+    locked: 0
+  - name: BackWater
+    uniqueID: 3727964683
+    locked: 0
+  - name: Foreground
+    uniqueID: 1345088331
+    locked: 0
+  - name: FrontWater
+    uniqueID: 3246227767
+    locked: 0
+  - name: FrontDecoration
+    uniqueID: 3326516275
+    locked: 0
