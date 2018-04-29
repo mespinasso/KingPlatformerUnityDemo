@@ -104,6 +104,11 @@ public class Player : MonoBehaviour {
 		Hud.instance.RefreshCoinScore (collectedCoins);
 	}
 
+	public void ShowResultScreen() {
+		gameObject.SetActive (false);
+		Hud.instance.ShowResults (collectedCoins);
+	}
+
 	/// <summary>
 	/// Player executa um ataque.
 	/// </summary>

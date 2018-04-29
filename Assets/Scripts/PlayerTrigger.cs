@@ -30,5 +30,9 @@ public class PlayerTrigger : MonoBehaviour {
 
 			playerScript.RegisterCollectedCoin ();
 		}
+
+		if (other.CompareTag ("LevelCompleted")) {
+			playerScript.ShowResultScreen ();
+		}
 	}
 }
